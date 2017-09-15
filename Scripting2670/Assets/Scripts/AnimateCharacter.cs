@@ -22,4 +22,6 @@ public class AnimateCharacter : MonoBehaviour {
     {
         anims.SetFloat("Walk", obj);
     }
+
+	
 }
