@@ -11,7 +11,7 @@ public class EnemyMove3 : MonoBehaviour {
 	private Transform player;
 
 	void Awake () {
-		//change
+		//change this keep
 		agent = GetComponent<NavMeshAgent>();
 		SendToEnemy.SendTransform += SendTransformHandler;
 	}
