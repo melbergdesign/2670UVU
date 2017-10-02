@@ -8,7 +8,7 @@ public class SendToEnemy : MonoBehaviour {
 	public static Action<Transform> SendTransform;
 
 	void Start () {
-		//change
+		//change this keep
 		SendTransform(transform);
 	}
 
