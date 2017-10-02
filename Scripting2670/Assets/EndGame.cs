@@ -9,6 +9,7 @@ public class EndGame : MonoBehaviour {
 
 	void OnTriggerEnter()
 	{
+		//change
 		End();
 	}
 }
