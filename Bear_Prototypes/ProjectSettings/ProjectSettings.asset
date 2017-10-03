@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 035826bb82312474485ac2f1e2a65aa1
+  productGUID: a5293df22fb419448a48a79c67b6c6bf
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Scripting2670
+  productName: Bear_Prototypes
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -505,14 +505,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Scripting2670
+  metroPackageName: Bear_Prototypes
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Scripting2670
+  metroApplicationDescription: Bear_Prototypes
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -583,12 +583,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 73aa1260-9eee-45f4-8c68-672de6e7f49b
-  projectName: Scripting2670
-  organizationId: amronellc
+  cloudProjectId: 9337e134-9488-420b-aef2-e145be0e08d6
+  projectName: Bear_Prototypes (1)
+  organizationId: melbergdesign
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
