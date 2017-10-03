@@ -563,8 +563,8 @@ GameObject:
   - component: {fileID: 1836088734}
   - component: {fileID: 1836088733}
   - component: {fileID: 1836088732}
-  - component: {fileID: 1836088731}
   - component: {fileID: 1836088736}
+  - component: {fileID: 1836088731}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -580,14 +580,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836088730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d373fd75f350d4880a30105d182e1a, type: 3}
+  m_Script: {fileID: 11500000, guid: 02dc76b10453bdd4abe4ae59156a1579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 0}
-  charMove: {x: 0, y: 0, z: 0}
-  horizonMove: 0
+  cc: {fileID: 1836088736}
+  moveChar: {x: 0, y: 0, z: 0}
+  horMove: 0
   vertMove: 0
-  speed: 0
+  speed: 15
 --- !u!23 &1836088732
 MeshRenderer:
   m_ObjectHideFlags: 0

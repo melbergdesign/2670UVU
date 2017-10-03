@@ -10,16 +10,22 @@ public class PlayerMove : MonoBehaviour {
 	public float horMove;
 	public float vertMove;
 
+	public float speed = 5;
+
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController> ();
 
-		moveChar.x = horMove;
-		moveChar.y = vertMove;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		horMove = Input.GetAxis ("Horizontal");
+
+		moveChar.x = horMove*speed*Time.deltaTime;
+		//moveChar.y = vertMove;
+
 		cc.Move (moveChar);
 	}
 }
