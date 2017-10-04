@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour {
 	public float horMove;
 	public float vertMove;
 	public float jumpPower = 5;
+	private int jumpCount = 0;
 
 	public float speed = 5;
 
@@ -22,7 +23,9 @@ public class PlayerMove : MonoBehaviour {
 
 
 	}
-	
+
+	//add a coroutine to delay when gravity kicks back in after jump
+
 	// Update is called once per frame
 	void Update () {
 		horMove = Input.GetAxis ("Horizontal");
@@ -31,12 +34,18 @@ public class PlayerMove : MonoBehaviour {
 
 		moveChar.x = horMove*speed*Time.deltaTime;
 		//moveChar.y = vertMove;
-		if (!cc.isGrounded) {
-			moveChar.y += -gravity * Time.deltaTime;
+		if (!cc.isGrounded){
+			moveChar.y = -gravity * Time.deltaTime;
 		}
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			moveChar.y += jumpPower * Time.deltaTime;
+
+		if (Input.GetKeyDown (KeyCode.Space) && jumpCount < 1) {
+			moveChar.y += jumpPower;
+			jumpCount++;
+		}
+
+		if (cc.isGrounded) {
+			jumpCount = 0;
 		}
 
 		cc.Move (moveChar);
