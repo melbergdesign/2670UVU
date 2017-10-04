@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class MoveWithPlayer : MonoBehaviour {
 
-	//moves camera and killzone left and right with the player
-	public gameObject player;
-	public Vector3 gap;
+	public GameObject player;
+
+	private Vector3 gap;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class MoveWithPlayer : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		//transform.position = 
+	void LateUpdate () {//runs after update
+		transform.position = player.transform.position + gap;		
 	}
 }
