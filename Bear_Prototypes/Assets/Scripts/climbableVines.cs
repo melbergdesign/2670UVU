@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class climbableVines : MonoBehaviour {
 
+	public bool touchVines = false;
+
 	void OnTriggerEnter (Collider other){
-		print ("Touching Vines");
+		touchVines = true;
+		print (touchVines);
 	}
 
 	void OnTriggerExit (Collider other){
-		print ("Not Touching Vines");
+		touchVines = false;
+		print (touchVines);
 	}
 }

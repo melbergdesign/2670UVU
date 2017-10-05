@@ -16,6 +16,8 @@ public class PlayerMove : MonoBehaviour {
 
 	public float gravity = 5;
 
+	public climbableVines theseVines;
+
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController> ();
@@ -46,6 +48,10 @@ public class PlayerMove : MonoBehaviour {
 
 		if (cc.isGrounded) {
 			jumpCount = 0;
+		}
+
+		if (theseVines.touchVines){
+			moveChar.y = vertMove*speed*Time.deltaTime;
 		}
 
 		cc.Move (moveChar);
