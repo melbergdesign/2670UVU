@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 261521043}
   - component: {fileID: 261521042}
   - component: {fileID: 261521041}
+  - component: {fileID: 261521044}
   m_Layer: 9
   m_Name: Vines
   m_TagString: Untagged
@@ -317,7 +318,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 261521039}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 63.86, y: -5.7, z: 0}
+  m_LocalPosition: {x: 64.57, y: -5.7, z: 0}
   m_LocalScale: {x: 21.051937, y: 0.9276397, z: 2.7342908}
   m_Children: []
   m_Father: {fileID: 1352819611}
@@ -362,11 +363,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 261521039}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.5, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!33 &261521043
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -374,6 +375,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 261521039}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &261521044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 261521039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12bdc71209f97954c8bcc4e15bed48df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &312621794
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +888,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 694869092}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.8, y: 1, z: -10}
+  m_LocalPosition: {x: 61.2, y: -10.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1978,7 +1990,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1836088730}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.3600006, y: 0.09, z: 0}
+  m_LocalPosition: {x: 60.64, y: -11.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
