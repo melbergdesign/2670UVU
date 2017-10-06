@@ -37,12 +37,12 @@ public class PlayerMove : MonoBehaviour {
 		moveChar.x = horMove*speed*Time.deltaTime;
 		//moveChar.y = vertMove;
 		if (!cc.isGrounded){
-			moveChar.y = -gravity * Time.deltaTime;
+			moveChar.y -= gravity * Time.deltaTime;
 		}
 
 
 		if (Input.GetKeyDown (KeyCode.Space) && jumpCount < 1) {
-			moveChar.y += jumpPower;
+			moveChar.y = jumpPower*Time.deltaTime;
 			jumpCount++;
 		}
 
