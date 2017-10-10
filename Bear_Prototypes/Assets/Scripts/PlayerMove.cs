@@ -56,4 +56,5 @@ public class PlayerMove : MonoBehaviour {
 
 		cc.Move (moveChar);
 	}
+		
 }
