@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class PushObject : MonoBehaviour {
 
-	public float pushPower = 2.0f;
 
-	void OnControllerColliderHit (ControllerColliderHit hit){
-		print ("hit");
+	void OnTriggerEnter(Collider col){
+		if (col.gameObject.layer == 11) {
+			print ("success");
+		}
 	}
+			
+
 }
