@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class PushObject : MonoBehaviour {
 
+	public Rigidbody treeObstacle;
+
+	public float pushForce = 250;
+
 
 	void OnTriggerEnter(Collider col){
-		if (col.gameObject.layer == 11) {
-			print ("success");
+		print ("hit");
+		treeObstacle.AddForce (transform.right * pushForce);
 		}
-	}
+
 			
 
 }
