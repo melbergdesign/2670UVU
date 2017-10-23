@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour {
 	public float jumpPower = 5;
 	private int jumpCount = 0;
 
-	public float speed = 5;
+	private float speed;
 
 	public float gravity = 5;
 
@@ -21,7 +21,7 @@ public class PlayerMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		cc = GetComponent<CharacterController> ();
-
+		speed = StaticVars.speed;
 
 
 	}
