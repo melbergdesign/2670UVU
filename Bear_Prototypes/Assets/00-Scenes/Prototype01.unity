@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   berry: {fileID: 672559295}
-  BerryBag: {fileID: 1836088733}
+  BerryBag: {fileID: 1836088731}
 --- !u!23 &672559297
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3653,9 +3653,8 @@ GameObject:
   - component: {fileID: 1836088732}
   - component: {fileID: 1836088736}
   - component: {fileID: 1836088737}
-  - component: {fileID: 1836088731}
   - component: {fileID: 1836088733}
-  - component: {fileID: 1836088738}
+  - component: {fileID: 1836088731}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -3671,16 +3670,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836088730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02dc76b10453bdd4abe4ae59156a1579, type: 3}
+  m_Script: {fileID: 11500000, guid: 896813fea1d47e6449f4f6a51d0d95b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1836088736}
-  moveChar: {x: 0, y: 0, z: 0}
-  horMove: 0
-  vertMove: 0
-  jumpPower: 40
-  gravity: 3
-  theseVines: {fileID: 261521044}
+  berryCount: 0
+  berryDisplay: {fileID: 1588694999}
 --- !u!23 &1836088732
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3721,11 +3715,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836088730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 896813fea1d47e6449f4f6a51d0d95b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 02dc76b10453bdd4abe4ae59156a1579, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  berryCount: 0
-  berryDisplay: {fileID: 1588694999}
+  cc: {fileID: 1836088736}
+  moveChar: {x: 0, y: 0, z: 0}
+  horMove: 0
+  vertMove: 0
+  jumpPower: 40
+  gravity: 3
+  theseVines: {fileID: 261521044}
 --- !u!33 &1836088734
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3776,19 +3775,6 @@ CapsuleCollider:
   m_Height: 2.25
   m_Direction: 1
   m_Center: {x: 0, y: -0.25, z: 0}
---- !u!114 &1836088738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1836088730}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5152b5a126132fb4ca81a82983da12fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  heart1: {fileID: 0}
 --- !u!1001 &1953626696
 Prefab:
   m_ObjectHideFlags: 0
@@ -4098,4 +4084,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   berry: {fileID: 2023367362}
-  BerryBag: {fileID: 1836088733}
+  BerryBag: {fileID: 1836088731}
