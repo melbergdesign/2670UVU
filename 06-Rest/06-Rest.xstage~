@@ -235,6 +235,7 @@
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
     <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="26" elementName="YB-OnModel-02" elementFolder="YB-OnModel-02" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -242,6 +243,7 @@
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
     <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -263,7 +265,7 @@
     <column type="0" name="BG_White_Rect" displayOrder="21" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-132" val="1" id="1"/>
     </column>
-    <column type="0" name="ATV-08D685B9B8904044" display="false" displayOrder="18" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-08D685B9B8904044" displayOrder="18" width="100" anonymous="true" id="4">
      <elementSeq exposures="3-4" val="001" id="4"/>
      <elementSeq exposures="5-6" val="004" id="4"/>
      <elementSeq exposures="9-10" val="010" id="4"/>
@@ -286,7 +288,7 @@
      <elementSeq exposures="83-119" val="083" id="4"/>
      <elementSeq exposures="120" val="120" id="4"/>
     </column>
-    <column type="0" name="ATV-08D685B9B8904A6F" display="false" displayOrder="17" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-08D685B9B8904A6F" displayOrder="17" width="100" anonymous="true" id="5">
      <elementSeq exposures="1-3" val="1" id="5"/>
      <elementSeq exposures="4-21" val="2" id="5"/>
      <elementSeq exposures="22-24" val="3" id="5"/>
@@ -339,7 +341,7 @@
     <column type="0" name="ATV-08D74BA15ED0354B" displayOrder="20" width="100" anonymous="true" id="10">
      <elementSeq exposures="1-132" val="Rocks" id="10"/>
     </column>
-    <column type="0" name="ATV-08D74BA15ED80507" display="false" displayOrder="12" width="100" anonymous="true" id="12">
+    <column type="0" name="ATV-08D74BA15ED80507" displayOrder="12" width="100" anonymous="true" id="12">
      <elementSeq exposures="7-9" val="007" id="12"/>
      <elementSeq exposures="10-12" val="010" id="12"/>
      <elementSeq exposures="13-15" val="013" id="12"/>
@@ -402,7 +404,7 @@
      <elementSeq exposures="127-130" val="7" id="17"/>
     </column>
     <column type="0" name="ATV-08D7B90B91F178A7" displayOrder="5" width="100" anonymous="true" id="18"/>
-    <column type="0" name="ATV-08D7B90B91F19592" display="false" displayOrder="11" width="100" anonymous="true" id="19">
+    <column type="0" name="ATV-08D7B90B91F19592" displayOrder="11" width="100" anonymous="true" id="19">
      <elementSeq exposures="7-9" val="1" id="19"/>
      <elementSeq exposures="10-12" val="3" id="19"/>
      <elementSeq exposures="13-15" val="4" id="19"/>
@@ -440,7 +442,7 @@
      <elementSeq exposures="125-132" val="36" id="19"/>
     </column>
     <column type="0" name="ATV-08D7B90B91F33AB5" displayOrder="15" width="100" anonymous="true" id="20"/>
-    <column type="0" name="ATV-08D7CCB6C9AFFE14" display="false" displayOrder="10" width="100" anonymous="true" id="21"/>
+    <column type="0" name="ATV-08D7CCB6C9AFFE14" displayOrder="10" width="100" anonymous="true" id="21"/>
     <column type="0" name="ATV-08D7C4324EB00CEA" displayOrder="19" width="100" anonymous="true" id="22">
      <elementSeq exposures="1-132" val="1" id="22"/>
     </column>
@@ -454,11 +456,13 @@
      <elementSeq exposures="4-5" val="1" id="25"/>
      <elementSeq exposures="6-7" val="2" id="25"/>
      <elementSeq exposures="8-9" val="3" id="25"/>
+     <elementSeq exposures="10-11" val="4" id="25"/>
     </column>
     <column type="0" name="ATV-08D8FF08B5E0B4FC" displayOrder="13" width="100" anonymous="true" id="26">
      <elementSeq exposures="4-5" val="1" id="26"/>
      <elementSeq exposures="6-7" val="2" id="26"/>
      <elementSeq exposures="8-9" val="3" id="26"/>
+     <elementSeq exposures="10-11" val="4" id="26"/>
     </column>
    </columns>
    <options>
