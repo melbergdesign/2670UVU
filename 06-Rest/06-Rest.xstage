@@ -534,7 +534,7 @@
      <elementSeq exposures="40-41" val="19" id="26"/>
      <elementSeq exposures="42-43" val="20" id="26"/>
      <elementSeq exposures="44-45" val="21" id="26"/>
-     <elementSeq exposures="46-47" val="22" id="26"/>
+     <elementSeq exposures="46-51" val="22" id="26"/>
     </column>
    </columns>
    <options>
@@ -913,6 +913,7 @@
      </module>
      <module type="READ" name="Y-Pass3" pos="0,0,0" publishUnderTab="Y-Pass3">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
@@ -2588,6 +2589,7 @@
      </module>
      <module type="READ" name="YB-OnModel-01" pos="0,0,0" publishUnderTab="YB-OnModel-01">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
