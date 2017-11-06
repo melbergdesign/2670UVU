@@ -83,6 +83,7 @@
     <dwg name="33" scaleFactor="1"/>
     <dwg name="34" scaleFactor="1" key="0"/>
     <dwg name="35" scaleFactor="1"/>
+    <dwg name="36" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="8" elementName="FG,_Bushes" elementFolder="FG,_Bushes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -243,6 +244,9 @@
     <dwg name="9" scaleFactor="1"/>
     <dwg name="10" scaleFactor="1"/>
     <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="13" scaleFactor="1"/>
+    <dwg name="14" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="26" elementName="YB-OnModel-02" elementFolder="YB-OnModel-02" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -257,6 +261,9 @@
     <dwg name="8" scaleFactor="1"/>
     <dwg name="9" scaleFactor="1"/>
     <dwg name="10" scaleFactor="1"/>
+    <dwg name="11" scaleFactor="1"/>
+    <dwg name="12" scaleFactor="1"/>
+    <dwg name="13" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -313,7 +320,7 @@
      <elementSeq exposures="40-42" val="9" id="5"/>
      <elementSeq exposures="43-45" val="10" id="5"/>
     </column>
-    <column type="0" name="ATV-08D685B9B8907D23" display="false" displayOrder="16" width="100" anonymous="true" id="6">
+    <column type="0" name="ATV-08D685B9B8907D23" displayOrder="16" width="100" anonymous="true" id="6">
      <elementSeq exposures="3-4" val="1" id="6"/>
      <elementSeq exposures="5-6" val="2" id="6"/>
      <elementSeq exposures="7-8" val="3" id="6"/>
@@ -327,12 +334,13 @@
      <elementSeq exposures="23-24" val="11" id="6"/>
      <elementSeq exposures="25-26" val="12" id="6"/>
      <elementSeq exposures="27-28" val="13" id="6"/>
-     <elementSeq exposures="29-30" val="14" id="6"/>
-     <elementSeq exposures="31-32" val="15" id="6"/>
-     <elementSeq exposures="33-34" val="16" id="6"/>
-     <elementSeq exposures="35-36" val="17" id="6"/>
-     <elementSeq exposures="37-38" val="18" id="6"/>
-     <elementSeq exposures="39-51" val="23" id="6"/>
+     <elementSeq exposures="29-30" val="36" id="6"/>
+     <elementSeq exposures="31-32" val="14" id="6"/>
+     <elementSeq exposures="33-34" val="15" id="6"/>
+     <elementSeq exposures="35-36" val="16" id="6"/>
+     <elementSeq exposures="37-38" val="17" id="6"/>
+     <elementSeq exposures="39-40" val="18" id="6"/>
+     <elementSeq exposures="41-51" val="23" id="6"/>
      <elementSeq exposures="52-57" val="24" id="6"/>
      <elementSeq exposures="58-61" val="25" id="6"/>
      <elementSeq exposures="62-83" val="22" id="6"/>
@@ -477,6 +485,9 @@
      <elementSeq exposures="20-21" val="9" id="25"/>
      <elementSeq exposures="22-23" val="10" id="25"/>
      <elementSeq exposures="24-25" val="11" id="25"/>
+     <elementSeq exposures="26-27" val="12" id="25"/>
+     <elementSeq exposures="28-29" val="13" id="25"/>
+     <elementSeq exposures="30-31" val="14" id="25"/>
     </column>
     <column type="0" name="ATV-08D8FF08B5E0B4FC" displayOrder="13" width="100" anonymous="true" id="26">
      <elementSeq exposures="4-5" val="1" id="26"/>
@@ -489,6 +500,9 @@
      <elementSeq exposures="18-19" val="8" id="26"/>
      <elementSeq exposures="20-21" val="9" id="26"/>
      <elementSeq exposures="22-23" val="10" id="26"/>
+     <elementSeq exposures="24-25" val="11" id="26"/>
+     <elementSeq exposures="26-27" val="12" id="26"/>
+     <elementSeq exposures="28-29" val="13" id="26"/>
     </column>
    </columns>
    <options>
@@ -867,7 +881,6 @@
      </module>
      <module type="READ" name="Y-Pass3" pos="0,0,0" publishUnderTab="Y-Pass3">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>

@@ -209,6 +209,9 @@
   <Drawing Key="" Name="9" Version="1"/>
   <Drawing Key="" Name="10" Version="1"/>
   <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="" Name="14" Version="1"/>
  </Element>
  <Element Name="YB-OnModel-02" ID="26" Folder="YB-OnModel-02">
   <Drawing Key="" Name="1" Version="1"/>
@@ -221,5 +224,8 @@
   <Drawing Key="" Name="8" Version="1"/>
   <Drawing Key="" Name="9" Version="1"/>
   <Drawing Key="" Name="10" Version="1"/>
+  <Drawing Key="" Name="11" Version="1"/>
+  <Drawing Key="" Name="12" Version="1"/>
+  <Drawing Key="" Name="13" Version="1"/>
  </Element>
 </SceneVersion>
