@@ -75,6 +75,7 @@
   <Drawing Key="" Name="33" Version="1"/>
   <Drawing Key="Key" Name="34" Version="1"/>
   <Drawing Key="" Name="35" Version="1"/>
+  <Drawing Key="" Name="36" Version="1"/>
  </Element>
  <Element Name="FG,_Bushes" ID="8" Folder="FG,_Bushes">
   <Drawing Key="" Name="Bushes" Version="1"/>
@@ -212,6 +213,12 @@
   <Drawing Key="" Name="12" Version="1"/>
   <Drawing Key="" Name="13" Version="1"/>
   <Drawing Key="" Name="14" Version="1"/>
+  <Drawing Key="" Name="15" Version="1"/>
+  <Drawing Key="" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
+  <Drawing Key="" Name="18" Version="1"/>
+  <Drawing Key="" Name="19" Version="1"/>
+  <Drawing Key="" Name="20" Version="1"/>
  </Element>
  <Element Name="YB-OnModel-02" ID="26" Folder="YB-OnModel-02">
   <Drawing Key="" Name="1" Version="1"/>
@@ -227,5 +234,13 @@
   <Drawing Key="" Name="11" Version="1"/>
   <Drawing Key="" Name="12" Version="1"/>
   <Drawing Key="" Name="13" Version="1"/>
+  <Drawing Key="" Name="14" Version="1"/>
+  <Drawing Key="" Name="15" Version="1"/>
+  <Drawing Key="" Name="16" Version="1"/>
+  <Drawing Key="" Name="17" Version="1"/>
+  <Drawing Key="" Name="18" Version="1"/>
+  <Drawing Key="" Name="19" Version="1"/>
+  <Drawing Key="" Name="20" Version="1"/>
+  <Drawing Key="" Name="21" Version="1"/>
  </Element>
 </SceneVersion>
