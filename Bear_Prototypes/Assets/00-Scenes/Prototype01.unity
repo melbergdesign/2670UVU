@@ -662,6 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchVines: 0
+  Player: {fileID: 1836088733}
 --- !u!1 &319094318 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: cb419adbcdb0d4d478e4322341b13e2b, type: 3}

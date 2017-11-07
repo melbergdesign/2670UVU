@@ -12,11 +12,13 @@ public class PlayerMove : MonoBehaviour {
 	public float jumpPower = 5;
 	private int jumpCount = 0;
 
-	private float speed;
+	//private float speed;
 
 	public float gravity = 5;
 
-	public climbableVines theseVines;
+	//public climbableVines theseVines;
+
+	public static Action<> Movement;
 
 	// Use this for initialization
 	void Start () {
@@ -50,9 +52,9 @@ public class PlayerMove : MonoBehaviour {
 			jumpCount = 0;
 		}
 
-		if (theseVines.touchVines){
+		/*if (theseVines.touchVines){
 			moveChar.y = vertMove*speed*Time.deltaTime;
-		}
+		}*/
 
 		cc.Move (moveChar);
 	}
