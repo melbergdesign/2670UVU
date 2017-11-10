@@ -11,6 +11,7 @@ public class PlayerMove : MonoBehaviour {
 	public float vertMove;
 	public float jumpPower = 5;
 	private int jumpCount = 0;
+    public float speed;
 
 	//private float speed;
 
@@ -18,7 +19,7 @@ public class PlayerMove : MonoBehaviour {
 
 	//public climbableVines theseVines;
 
-	public static Action<> Movement;
+	//public static Action<> Movement;
 
 	// Use this for initialization
 	void Start () {
