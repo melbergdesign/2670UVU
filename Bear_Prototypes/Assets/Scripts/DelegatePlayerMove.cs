@@ -5,7 +5,7 @@ using System;
 
 public class DelegatePlayerMove : MonoBehaviour {
 
-    //public static Action<> MoveAction;
+    public static Action<> MoveAction();
 
     public float horMove;
     public float vertMove;
@@ -16,10 +16,14 @@ public class DelegatePlayerMove : MonoBehaviour {
     void Start () {
         //HorizontalMove(horMove);
         HorMoveFunc();
+
+        MoveAction();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+
 		
 	}
 
