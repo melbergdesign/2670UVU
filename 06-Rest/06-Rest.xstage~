@@ -294,6 +294,7 @@
     <dwg name="27" scaleFactor="1"/>
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -503,7 +504,7 @@
     <column type="0" name="ATV-08D87A9BB052789D" displayOrder="1" width="100" anonymous="true" id="24">
      <elementSeq exposures="1-132" val="1" id="24"/>
     </column>
-    <column type="0" name="ATV-08D8FF08B5E010B1" displayOrder="14" width="100" anonymous="true" id="25">
+    <column type="0" name="ATV-08D8FF08B5E010B1" display="false" displayOrder="14" width="100" anonymous="true" id="25">
      <elementSeq exposures="4-5" val="1" id="25"/>
      <elementSeq exposures="6-7" val="2" id="25"/>
      <elementSeq exposures="8-9" val="3" id="25"/>
@@ -530,8 +531,8 @@
      <elementSeq exposures="84-86" val="24" id="25"/>
      <elementSeq exposures="87-89" val="25" id="25"/>
      <elementSeq exposures="90-92" val="27" id="25"/>
-     <elementSeq exposures="93-94" val="28" id="25"/>
-     <elementSeq exposures="96-98" val="26" id="25"/>
+     <elementSeq exposures="93-95" val="28" id="25"/>
+     <elementSeq exposures="103-105" val="26" id="25"/>
     </column>
     <column type="0" name="ATV-08D8FF08B5E0B4FC" displayOrder="13" width="100" anonymous="true" id="26">
      <elementSeq exposures="4-5" val="1" id="26"/>
@@ -559,10 +560,11 @@
      <elementSeq exposures="52-57" val="23" id="26"/>
      <elementSeq exposures="58-61" val="24" id="26"/>
      <elementSeq exposures="62-83" val="25" id="26"/>
-     <elementSeq exposures="84-86" val="26" id="26"/>
-     <elementSeq exposures="87-89" val="27" id="26"/>
-     <elementSeq exposures="90-92" val="29" id="26"/>
-     <elementSeq exposures="96-98" val="28" id="26"/>
+     <elementSeq exposures="84-85" val="26" id="26"/>
+     <elementSeq exposures="86-88" val="27" id="26"/>
+     <elementSeq exposures="89-90" val="29" id="26"/>
+     <elementSeq exposures="91-92" val="30" id="26"/>
+     <elementSeq exposures="103-105" val="28" id="26"/>
     </column>
    </columns>
    <options>
@@ -2617,6 +2619,7 @@
      </module>
      <module type="READ" name="YB-OnModel-01" pos="0,0,0" publishUnderTab="YB-OnModel-01">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
