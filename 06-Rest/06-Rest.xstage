@@ -261,6 +261,8 @@
     <dwg name="26" scaleFactor="1"/>
     <dwg name="27" scaleFactor="1"/>
     <dwg name="28" scaleFactor="1"/>
+    <dwg name="29" scaleFactor="1"/>
+    <dwg name="30" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="26" elementName="YB-OnModel-02" elementFolder="YB-OnModel-02" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -295,6 +297,8 @@
     <dwg name="28" scaleFactor="1"/>
     <dwg name="29" scaleFactor="1"/>
     <dwg name="30" scaleFactor="1"/>
+    <dwg name="31" scaleFactor="1"/>
+    <dwg name="32" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -532,6 +536,8 @@
      <elementSeq exposures="86-87" val="25" id="25"/>
      <elementSeq exposures="88-89" val="27" id="25"/>
      <elementSeq exposures="90-91" val="28" id="25"/>
+     <elementSeq exposures="92-93" val="29" id="25"/>
+     <elementSeq exposures="94-95" val="30" id="25"/>
      <elementSeq exposures="103-105" val="26" id="25"/>
     </column>
     <column type="0" name="ATV-08D8FF08B5E0B4FC" displayOrder="13" width="100" anonymous="true" id="26">
@@ -564,6 +570,8 @@
      <elementSeq exposures="86-87" val="27" id="26"/>
      <elementSeq exposures="88-89" val="29" id="26"/>
      <elementSeq exposures="90-91" val="30" id="26"/>
+     <elementSeq exposures="92-93" val="31" id="26"/>
+     <elementSeq exposures="94-95" val="32" id="26"/>
      <elementSeq exposures="103-105" val="28" id="26"/>
     </column>
    </columns>
