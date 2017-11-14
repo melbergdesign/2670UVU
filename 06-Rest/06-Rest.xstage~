@@ -316,11 +316,17 @@
   <element id="27" elementName="Monkey1-2ndPass" elementFolder="Monkey1-2ndPass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="28" elementName="Monkey1-3rdPass" elementFolder="Monkey1-3rdPass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1" scaleFactor="1"/>
+    <dwg name="2" scaleFactor="1"/>
+    <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -453,7 +459,7 @@
      <elementSeq exposures="105-108" val="105" id="13"/>
      <elementSeq exposures="109-113,121-132" val="109" id="13"/>
     </column>
-    <column type="0" name="ATV-08D7B90B91F00EDC" displayOrder="8" width="100" anonymous="true" id="14">
+    <column type="0" name="ATV-08D7B90B91F00EDC" display="false" displayOrder="8" width="100" anonymous="true" id="14">
      <elementSeq exposures="85-88" val="1" id="14"/>
      <elementSeq exposures="89-92" val="2" id="14"/>
      <elementSeq exposures="93-96" val="3" id="14"/>
@@ -463,7 +469,7 @@
      <elementSeq exposures="109-113" val="7" id="14"/>
      <elementSeq exposures="114-117" val="8" id="14"/>
     </column>
-    <column type="0" name="ATV-08D7B90B91F0B9AE" display="false" displayOrder="9" width="100" anonymous="true" id="16">
+    <column type="0" name="ATV-08D7B90B91F0B9AE" displayOrder="9" width="100" anonymous="true" id="16">
      <elementSeq exposures="87-90" val="1" id="16"/>
      <elementSeq exposures="91-94" val="2" id="16"/>
      <elementSeq exposures="95-98" val="3" id="16"/>
@@ -472,7 +478,7 @@
      <elementSeq exposures="107-110" val="6" id="16"/>
      <elementSeq exposures="111-114" val="7" id="16"/>
     </column>
-    <column type="0" name="ATV-08D7B90B91F0F9F9" display="false" displayOrder="10" width="100" anonymous="true" id="17">
+    <column type="0" name="ATV-08D7B90B91F0F9F9" displayOrder="10" width="100" anonymous="true" id="17">
      <elementSeq exposures="103-106" val="1" id="17"/>
      <elementSeq exposures="107-110" val="2" id="17"/>
      <elementSeq exposures="111-114" val="3" id="17"/>
@@ -606,11 +612,17 @@
      <elementSeq exposures="123-126" val="37" id="26"/>
      <elementSeq exposures="127-132" val="38" id="26"/>
     </column>
-    <column type="0" name="ATV-08DBC8B3E273D564" display="false" displayOrder="6" width="100" anonymous="true" id="27">
+    <column type="0" name="ATV-08DBC8B3E273D564" displayOrder="6" width="100" anonymous="true" id="27">
      <elementSeq exposures="85-88" val="1" id="27"/>
+     <elementSeq exposures="89-92" val="2" id="27"/>
+     <elementSeq exposures="93-96" val="3" id="27"/>
+     <elementSeq exposures="97-100" val="4" id="27"/>
     </column>
-    <column type="0" name="ATV-08DBCE5E3550A0BB" display="false" displayOrder="5" width="100" anonymous="true" id="28">
+    <column type="0" name="ATV-08DBCE5E3550A0BB" displayOrder="5" width="100" anonymous="true" id="28">
      <elementSeq exposures="85-88" val="1" id="28"/>
+     <elementSeq exposures="89-92" val="2" id="28"/>
+     <elementSeq exposures="93-96" val="3" id="28"/>
+     <elementSeq exposures="97-100" val="4" id="28"/>
     </column>
    </columns>
    <options>
@@ -1199,7 +1211,6 @@
      </module>
      <module type="READ" name="Monkies_Roughs" pos="0,0,0" publishUnderTab="Monkies_Roughs">
       <options>
-       <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1621,7 +1632,7 @@
      </module>
      <module type="READ" name="1st_Monkey-2nd_Pass" pos="0,0,0" publishUnderTab="1st_Monkey-2nd_Pass">
       <options>
-       <locked val="true"/>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="true"/>
       </options>
@@ -2876,7 +2887,6 @@
      </module>
      <module type="READ" name="Monkey1-2ndPass" pos="0,0,0" publishUnderTab="Monkey1-2ndPass">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -2981,7 +2991,6 @@
      </module>
      <module type="READ" name="Monkey1-3rdPass" pos="0,0,0" publishUnderTab="Monkey1-3rdPass">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>

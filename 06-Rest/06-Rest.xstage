@@ -318,6 +318,8 @@
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
     <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
    </drawings>
   </element>
   <element id="28" elementName="Monkey1-3rdPass" elementFolder="Monkey1-3rdPass" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -325,6 +327,8 @@
     <dwg name="1" scaleFactor="1"/>
     <dwg name="2" scaleFactor="1"/>
     <dwg name="3" scaleFactor="1"/>
+    <dwg name="4" scaleFactor="1"/>
+    <dwg name="5" scaleFactor="1"/>
    </drawings>
   </element>
  </elements>
@@ -614,11 +618,15 @@
      <elementSeq exposures="85-88" val="1" id="27"/>
      <elementSeq exposures="89-92" val="2" id="27"/>
      <elementSeq exposures="93-96" val="3" id="27"/>
+     <elementSeq exposures="97-100" val="4" id="27"/>
+     <elementSeq exposures="101-102" val="5" id="27"/>
     </column>
     <column type="0" name="ATV-08DBCE5E3550A0BB" displayOrder="5" width="100" anonymous="true" id="28">
      <elementSeq exposures="85-88" val="1" id="28"/>
      <elementSeq exposures="89-92" val="2" id="28"/>
      <elementSeq exposures="93-96" val="3" id="28"/>
+     <elementSeq exposures="97-100" val="4" id="28"/>
+     <elementSeq exposures="101-104" val="5" id="28"/>
     </column>
    </columns>
    <options>
