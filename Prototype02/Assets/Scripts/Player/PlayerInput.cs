@@ -16,7 +16,7 @@ public class PlayerInput : MonoBehaviour {
 	void Update () {
 		if (Input.GetAxis("Horizontal") != 0) {
 			myMove.horMoveAmt = Input.GetAxis ("Horizontal");
-			print ("Success");
+			//print ("Success");
 			myMove.HorizontalMovement ();
 		}
 		if (Input.GetAxis ("Vertical") != 0) {

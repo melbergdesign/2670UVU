@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemPickUp : MonoBehaviour {
+public class Inventory : MonoBehaviour {
+
+	public int berryCount;
+	public int idolCount;
 
 	// Use this for initialization
 	void Start () {
