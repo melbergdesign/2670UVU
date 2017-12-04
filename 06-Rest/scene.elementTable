@@ -30,4 +30,8 @@
  <element id="33" elementName="YB-Pass3" elementFolder="YB-Pass3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="34" elementName="YB-3-RoughFixes" elementFolder="YB-3-RoughFixes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="35" elementName="YB3-ModelFixes" elementFolder="YB3-ModelFixes" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="36" elementName="YB-Pass4" elementFolder="YB-Pass4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="37" elementName="Right_Arm" elementFolder="Right_Arm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="38" elementName="BodyandLegs" elementFolder="BodyandLegs" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="39" elementName="LeftArm" elementFolder="LeftArm" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
